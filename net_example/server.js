@@ -10,7 +10,7 @@ server.on('connection', client => {
 	client.write('Hello there!');
 });
 
-client.setEncoding('utf8'); //interpret data as text
-client.on('data', data => {
-	console.log('Message from client: ', data);
-});
+// client.setEncoding('utf8'); //interpret data as text
+// client.on('data', data => {
+// 	console.log('Message from client: ', data);
+// });
